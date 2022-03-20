@@ -1,4 +1,4 @@
-# Lord-Botz-v2
+# BebanBot
 
 <a href="https://github.com/AmmarBN/lordbot-v2/network/members"><img title="Forks" src="https://img.shields.io/github/forks/AmmarBN/lordbot-v2?label=Forks&color=blue&style=flat-square"></a>
 <a href="https://github.com/AmmarBN/lordbot-v2/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/AmmarBN/lordbot-v2?label=Watchers&color=green&style=flat-square"></a>
@@ -11,7 +11,7 @@
 
 
 ## Join Group Diskusi
-[![Grup WhatsApp](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/GVwpKf83s42D1CnIfDW19G) 
+[![Grup WhatsApp](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/BL8CTzUqg9KFJ0Mu6GmUvs) 
 **NO BOT**
 
 
