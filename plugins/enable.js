@@ -12,8 +12,8 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
           global.dfail('group', m, conn)
           throw false
         }
-      } else if (!isAdmin) {
-        global.dfail('admin', m, conn)
+      } if (!isROwner) {
+glo     bal.dfail('rowner', m, conn)
         throw false
       }
       chat.welcome = isEnable
@@ -32,8 +32,8 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
       break
     case 'delete':
       if (m.isGroup) {
-        if (!(isAdmin || isOwner)) {
-          global.dfail('admin', m, conn)
+        if (!isROwner) {
+          global.dfail('rowner', m, conn)
           throw false
         }
       }
