@@ -41,8 +41,8 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
       break
     case 'antidelete':
       if (m.isGroup) {
-        if (!(isAdmin || isOwner)) {
-          global.dfail('admin', m, conn)
+        if (!isROwner) {
+          global.dfail('rowner', m, conn)
           throw false
         }
       }
