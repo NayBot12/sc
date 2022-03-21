@@ -13,7 +13,7 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
           throw false
         }
       } if (!isROwner) {
-glo     bal.dfail('rowner', m, conn)
+        global.dfail('rowner', m, conn)
         throw false
       }
       chat.welcome = isEnable
