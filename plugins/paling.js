@@ -1,5 +1,5 @@
 let handler = async (m, { conn, text, participants, usedPrefix }) => {
-    if (!text) throw `Example:\n${usedPrefix}paling cantik`
+    if (!text) throw `Example:\n${usedPrefix}paling Kontol`
     let member = participants.map(u => u.jid)
     let tagged = member[Math.floor(Math.random() * member.length)]
     let jawab = `Yang paling ${text} disini adalah @${tagged.replace(/@.+/, '')}`.trim()
